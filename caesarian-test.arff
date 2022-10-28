@@ -1,0 +1,13 @@
+@relation Cesaria 
+
+ 
+@attribute 'Edad' { 22,26,28,27,32,36,33,23,20,29,25,37,24,18,30,40,31,19,21,35,17,38 } 
+@attribute 'Numero de Parto' { 1,2,3,4 }
+@attribute 'Hora de Parto' { 0,1,2 }
+@attribute 'Precion Sanguinea' { 2,1,0 } 
+@attribute 'Problema Cardiaco' { 1,0 } 
+@attribute Cesaria {no_necesita_cesarea,necesita_cesarea}
+
+
+@data
+22,1,1,0,1,necesita_cesarea
